@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>First</title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
   <!-- Header start -->
@@ -14,6 +16,7 @@
         <div class="header__logo">
           <img src="../Step-1/img/svg/nerds-logo.svg" alt="logo-nerd's" class="header__logo-pic">
         </div>
+        
         <nav class="header__nav">
           <ul class="header__nav__list">
             <li class="header__nav__list-item">
@@ -31,8 +34,11 @@
           </ul>
         </nav>
         <div class="header__basket">
-          <img src="./img/svg/shape.svg" alt="basket-pic" class="header__basket-pic">
+          <a href="#!" class="header__basket-link">
+            <img src="./img/svg/shape.svg" alt="basket-pic" class="header__basket-pic">
+          </a>
           <p class="header__basket-text">Корзина</p>
+          
         </div>
       </div>
     </div>
@@ -42,6 +48,7 @@
 
 <!-- Main start -->
 <main class="main">
+  <!-- Slogan start -->
   <section class="slogan">
     <div class="wrapper">
       <div class="slogan__container">
@@ -52,17 +59,139 @@
             Математически выверенный дизайн для вашего сайта или мобильного приложения.
           </p>
           <button class="main__slogan-btn">
-            УЗНАТЬ БОЛЬШЕ
+            Узнать больше
           </button>
         </div>
         <div class="main__slogan-img">
-          <img src="./img/main-img.jpg" alt="main-img" class="main__slogan-img-pic">
+          <img src="./img/main-img1.png" alt="main-img" class="main__slogan-img-pic">
         </div>
       </div>
     </div>  
   </section>
 
+   <!-- Orders block start -->
+   <section class="orders">
+    <div class="wrapper">
+      <div class="orders__containers">
+        <div class="orders__container-context">
+          <img src="" alt="orders-img" class="orders__img">
+          <h4 class="orders__title">
+            Веб-сайты
+          </h4>
+          <p class="orders__text">
+            Мир никогда не будет прежним после того как увидит ваш сайт!
+          </p>
+          <button class="orders__btn btn-1">
+            Заказать
+          </button>
+        </div>
+        <div class="orders__container-context">
+          <img src="" alt="orders-img" class="orders__img">
+          <h4 class="orders__title">
+            Приложения
+          </h4>
+          <p class="orders__text">
+            Покорите топ-10 приложений в AppStore и Google Play
+          </p>
+          <button class="orders__btn btn-2">
+            Заказать
+          </button>
+        </div>
+        <div class="orders__container-context">
+          <img src="" alt="orders-img" class="orders__img">
+          <h4 class="orders__title">
+            Презентации
+          </h4>
+          <p class="orders__text">
+            Вы даже не подозреваете, насколько вы изумительны!
+          </p>
+          <button class="orders__btn btn-3">
+            Заказать
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+    <!-- Orders block end -->
 
+  <!-- About us start -->
+  <section class="about__us">
+    <div class="wrapper">
+      <div class="about__us__containers">
+        <div class="about__us__container-info">
+          <h2 class="about__us__title">
+            Мы — маленькая, но гордая дизайн-студия из Краснодара.
+          </h2>
+          <p class="about__us__text">
+            Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.
+          </p>
+          <span class="about__us__title-list">
+            Выполняем заказы на разработку:
+          </span>
+          <ul class="about__us__list">
+            <li class="about__us__list-item">
+              Веб-сайтов любой сложности
+            </li>
+            <li class="about__us__list-item">
+              Мобильных приложений для iOS и Android
+            </li>
+            <li class="about__us__list-item">
+              Слайдшоу и видео для корпоративных презентаций
+            </li>
+          </ul>
+        </div>
+
+        <div class="about__us__statistic">
+          
+          <img src="#!" alt="happy nerds img" class="about__us__st-img">
+          <span class="about__us__st-title">
+            с 2004 года Любим точность во всем:
+          </span>
+          <div class="about__us__statistic-containers">
+            <div class="about__ua__st-cont">
+              <p>
+                146 <span>%</span>
+              </p>
+              <p>
+              Уровень самоотдачи
+              </p>           
+            </div>
+            <div class="about__ua__st-cont">
+              <p>
+                100 <span>%</span>
+              </p>
+              <p>
+                Соблюдение сроков
+              </p>           
+            </div>
+            <div class="about__ua__st-cont">
+              <p>
+                50 <span>%</span>
+              </p>
+              <p>
+                Минимальная предоплата
+              </p>           
+            </div>           
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- About us end -->
+
+  <!-- Partners start -->
+ <section class="partners">
+   <div class="wrapper">
+     <div class="partners__container">
+
+     </div>
+   </div>
+ </section>
+  <!-- Partners end -->
+
+  <section class="map">
+
+  </section>
 
 </main>
 
@@ -70,6 +199,21 @@
 
 <!-- Footer start -->
 <footer class="footer">
+  <div class="wrapper">
+    <div class="footer__container">
+      <div class="footer__social__container">
+
+      </div>
+      <div class="footer__info">
+        <h3 class="footer__title">
+          Давайте дружить, это выгодно!
+        </h3>
+        <p class="footer__text">
+          Скидка 10% для друзей из социальных сетей.
+        </p>
+      </div>
+    </div>
+  </div>
 
 </footer>
 <!-- Footer end -->
