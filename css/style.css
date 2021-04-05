@@ -235,4 +235,147 @@ header{
 
 /* Section orders end */
 
+/* About us start */
+.about__us__containers{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.about__us__container-info{
+  margin-top: 73px;
+}
+
+.about__us__title{
+  width: 650px;
+  margin-bottom: 32px;
+}
+
+.about__us__text{
+  color: #283136;
+  margin-bottom: 40px;
+  width: 645px;
+}
+
+.about__us__title-list{
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  color: #283136;
+  margin-bottom: 23px;
+}
+
+.about__us__list{
+  width: 400px;
+  color: #283136;
+  margin-bottom: 73px;
+}
+
+.about__us__list-item{
+  margin-bottom: 23px;
+}
+
+.about__us__statistic{
+  margin-top: 40px;
+}
+
+.about__us__st-img{
+  margin-bottom: 37px;
+}
+
+.about__us__st-title{
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  align-self: center;
+  margin-bottom: 31px;
+}
+
+.about__us__statistic-containers{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  margin-bottom: 75px;
+}
+
+.about__ua__statistics-numbers{
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 64px;
+}
+
+.percent{
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 40px;
+  width: 20px;
+  
+}
+
+.about__ua__statistics-text-1{
+  width: 120px;
+}
+.about__ua__statistics-text-2{
+  width: 125px;
+}
+.about__ua__statistics-text-3{
+  width: 135px;
+}
+.txt{
+  font-size: 16px;
+  line-height: 18px;
+  color: #283136;
+}
+
+/* About us end */
+
+/* Partners start */
+.partners__container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 44px;
+  margin-top: 46px;
+}
+
+/* Partners end */
+
+
+
 /* Main style end */
+
+/* Footer start */
+.footer__container{
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+.footer__social__link-pic{
+  margin-right: 9px;
+}
+
+.footer__social__container{
+  margin-right: 130px;
+  margin-top: 69px;
+}
+
+.footer__info{
+  margin-top: 75px;
+}
+
+.footer__title{
+  margin-bottom: 10px;
+  text-align: center;
+}
+.footer__text{
+  text-align: center;
+  font-size: 16px;
+  line-height: 22px;
+  color: #444444;
+  margin-bottom: 74px;
+}
+
+
+/* Footer end */
