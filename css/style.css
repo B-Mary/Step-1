@@ -87,6 +87,7 @@ header{
 
 .link-basket__pic{
   width: 18px;
+  margin-right: 24px;
 }
 
 .link-basket:hover{
@@ -283,7 +284,7 @@ header{
 /* Section orders end */
 
 /* About us start */
-.about-us__containers{
+.containers-about{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -340,7 +341,7 @@ header{
   white-space:nowrap
 }
 
-.info-list__item::before{
+.info-list__item_element::before{
   content: '';
   height: 2px;
   width: 25px;
@@ -434,7 +435,7 @@ header{
   width: 1160px;
 }
 
-.partners-imgs__link_line::before{
+.imgs-partners-link_line::before{
   content: '';
   width: 2px;
   height: 52px;
@@ -443,16 +444,16 @@ header{
   top: 0;
 }
 
-.partners-imgs__link:hover{
+.imgs-partners-link:hover{
   color: black;
 }
 
 /* Как сделать эти лого черными?????? */
 
-.partners-imgs__link:active{
+.imgs-partners-link:active{
   opacity: 0.1;
 }
-.partners-imgs__item {
+.imgs-partners-link__item {
   padding-left: 45px;
 }
 
