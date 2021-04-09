@@ -13,37 +13,41 @@
   <header class="header">
     <div class="wrapper">
       <div class="header__wrapper">
-        <div class="header__container__nav">
-          <div class="header__logo">
-            <img src="../Step-1/img/svg/nerds-logo.svg" alt="logo-nerd's" class="header__logo-pic">
+        <div class="container-header">
+          <div class="logo">
+            <a href="file:///C:/Users/user/Desktop/Project%20with%20a%20mentor/Step-1/index.html" class="link-logo">
+              <img src="../Step-1/img/svg/nerds-logo.svg" alt="logo-nerd's" class="link-logo__pic">
+            </a>
+            
           </div>
           
-          <nav class="header__nav">
-            <ul class="header__nav__list">
-              <li class="header__nav__list-item">
-                <a href="" class="header__nav-link">Студия</a>
+          <nav class="nav">
+            <ul class="nav-list">
+              <li class="list-item">
+                <a href="" class="list-item__link ">Студия</a>
               </li>
-              <li class="header__nav__list-item">
-                <a href="" class="header__nav-link">Клиенты</a>
+              <li class="list-item">
+                <a href="" class="list-item__link">Клиенты</a>
               </li>
-              <li class="header__nav__list-item">
-                <a href="" class="header__nav-link">Магазин</a>
+              <li class="list-item">
+                <a href="" class="list-item__link">Магазин</a>
               </li>
-              <li class="header__nav__list-item">
-                <a href="" class="header__nav-link">Контакты</a>
+              <li class="list-item">
+                <a href="" class="list-item__link">Контакты</a>
               </li>
             </ul>
           </nav>
-          <div class="header__basket">
-            <a href="#!" class="header__basket-link">
-              <img src="./img/svg/shape.svg" alt="basket-pic" class="header__basket-pic">
-            </a>
-            <p class="header__basket-text">Корзина</p>
-            
+          <div class="basket">
+            <a href="#!" class="link-basket">
+              <img src="./img/svg/shape.svg" alt="basket-pic" class="link-basket__pic">           
+                Корзина            
+            </a>          
           </div>
         </div>
-        <div class="header__container__title">
-          <h1 class="header__container__title-catalog">
+        
+        
+        <div class="title-header">
+          <h1 class="title-header__template">
             Магазин готовых шаблонов
           </h1>
         </div>
@@ -54,44 +58,211 @@
 
   <!-- Main start -->
   <main class="main">
+    <section class="catalog">
+      <div class="wrapper">
+        <div class="catalog-wrapper">
+            <!-- Block filter start-->
+          <div class="container-filter">
+            <!-- Cost range -->
+            <div class="cost-block">
+              <h3 class="cost-block__title">
+                Стоимость:
+              </h3>
+              <div class="range-cost">
+                <input type="range" class="range-cost__input">
+              </div>
+              <div class="price-controls">
+                <label for="price-min" class="price-controls__label">
+                  от
+                </label>
+                <input type="text" name="min-price" value="0" class="price-controls__input" id="price-min">
+                <label for="price-max" class="price-controls__label">
+                  до
+                </label>
+                <input type="text" name="min-price" value="15 000" class="price-controls__input" id="price-max">
+              </div>
+            </div>
+              <!-- Grid block -->
+            <div class="grid-block">
+              <h3 class="grid-block__title">
+                Сетка:
+              </h3>
+              <form action="" class="grids-form">
+                <div class="type-grid">
+                  <input type="radio" class="type-grid__input" name="grid" id="grid1" checked>
+                  <label for="grid1" class="type-grid__label">
+                    Адаптивная
+                  </label>
+                </div>
+                <div class="type-grid">
+                  <input type="radio" class="type-grid__input" name="grid" id="grid2">
+                  <label for="grid2" class="type-grid__label">
+                    Фиксированная
+                  </label>
+                </div>
+                <div class="type-grid">
+                  <input type="radio" class="type-grid__input" name="grid" id="grid3">
+                  <label for="grid3" class="type-grid__label">
+                    Резиновая
+                  </label>
+                </div>
+              </form>
+            </div>
+              <!-- Features -->
+            <div class="features-block">
+              <h3 class="features-block__title">
+                Особенности:
+              </h3>
+              <form action="" class="form-features">
+                <div class="type-features">
+                  <input type="checkbox" class="type-features__input" name="features" id="feature1" checked>
+                  <label for="feature1" class="type-features__label">
+                    Слайдер
+                  </label>
+                </div>
 
-
-
-<!-- Map start -->
-    <section class="map">
-
+                <div class="type-features">
+                  <input type="checkbox" class="type-features__input" name="features" id="feature2">
+                  <label for="feature2" class="type-features__label">
+                    Блок преимуществ
+                  </label>
+                </div>
+                
+                <div class="type-features">
+                  <input type="checkbox" class="type-features__input" name="features" id="feature3">
+                  <label for="feature3" class="type-features__label">
+                    Новости
+                  </label>
+                </div>
+                
+                <div class="type-features">
+                  <input type="checkbox" class="type-features__input" name="features" id="feature4"checked>
+                <label for="feature4" class="type-features__label">
+                  Галерея
+                </label>
+                </div>
+              
+                <div class="type-features">
+                  <input type="checkbox" class="type-features__input" name="features" id="feature5">
+                  <label for="feature5" class="type-features__label">
+                    Корзина
+                  </label>
+                </div>
+              
+              </form>
+            </div>
+            <button class="container-filter__button">
+              ПОКАЗАТЬ
+            </button>
+          </div>
+         <!-- Block filter end-->
+         <!-- Block projects start-->
+          <div class="projects">
+            <div class="nav-projects">
+              <h3 class="nav-projects__title">
+                СОртировать:
+              </h3>
+              <ul class="list-projects">
+                <li class="filter-item">
+                  <a href="" class="filter-item__link">
+                    По цене
+                  </a>
+                </li>
+                <li class="filter-item">
+                  <a href="" class="filter-item__link">
+                    По типу
+                  </a>
+                </li>
+                <li class="filter-item">
+                  <a href="" class="filter-item__link">
+                    По названию
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="projects-catalog">
+              <div class="card-product">
+                fffff
+              </div>
+              <div class="card-product">
+                ffbbbb
+              </div>
+              <div class="card-product">
+                bbbbb
+              </div>
+              <div class="card-product">
+                bbbbb
+              </div>
+            </div>
+            
+          </div>
+        </div> 
+      </div>
     </section>
 
-    <!-- Map end -->
+
+ <!-- Map start -->
+ <section class="map">
+  <div class="map-container">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.598942412368!2d30.320894615677183!3d59.938796869048424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469631fefe102551%3A0x19e070ca4ac35ecd!2sNerds!5e0!3m2!1sru!2sua!4v1617648680293!5m2!1sru!2sua" allowfullscreen="" loading="lazy" class="map-container__link"></iframe>
+    <form class="info-form" action="#!" method="POST">
+      <p class="info-form__title"> NЁRDS DESIGN STUDIO</p>
+      <p class="info-form__address"> 191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
+      <p class="info-form__tell">тел. +7 (812) 275-75-75         
+      </p>
+      <button type="map-register" class="info-form__btn">
+        Напишите нам
+      </button>
+    </form>
+  </div>
+  <!-- <form action="" class="map-register" method="POST"  >
+    <label for="name" class="map-register__label">
+      Ваше имя:
+    </label>
+    <input type="text" name="name" id="name" placeholder="Имя Фамилия" class="map-register__input">
+    <label for="email" class="map-register__label">
+      Ваш email:
+    </label>
+    <input type="email" name="email" id="email" placeholder="Email" class="map-register__input">
+    <button  type="submit" name="button" class="map-register__btn">
+      Отправить
+    </button>
+    <span class="map-register__close"></span>
+  </form> -->
+
+</section>
+<!-- Map end -->
     
   </main>
 <!-- Main end -->
 
+<!-- Footer start -->
 <footer class="footer">
   <div class="wrapper">
-    <div class="footer__container">
-      <div class="footer__social__container">
-        <a href="#!" class="footer__social__link">
-          <img src="" alt="vk" class="footer__social__link-pic">
-        </a>
-        <a href="#!" class="footer__social__link">
-          <img src="" alt="f" class="footer__social__link-pic">
-        </a>
-        <a href="#!" class="footer__social__link">
-          <img src="" alt="tw" class="footer__social__link-pic">
-        </a>
+    <div class="container">
+      <div class="social">
+        <ul class="social-list">
+          <li class="social-item ">
+            <a href="#!" class="social-item__link social-item__link_vk "></a>
+          </li>
+          <li class="social-item">
+            <a href="#!" class="social-item__link social-item__link_f"></a>
+          </li>
+          <li class="social-item">
+            <a href="#!" class="social-item__link social-item__link_inst"></a>
+          </li>
+        </ul>
       </div>
-      <div class="footer__info">
-        <h3 class="footer__title">
+      <div class="info-footer">
+        <h3 class="info-footer__title">
           Давайте дружить, это выгодно!
         </h3>
-        <p class="footer__text">
+        <p class="info-footer__text">
           Скидка 10% для друзей из социальных сетей.
         </p>
       </div>
     </div>
   </div>
-
 </footer>
 <!-- Footer end -->
 </body>
