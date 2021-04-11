@@ -35,7 +35,7 @@
         </nav>
         <div class="basket">
           <a href="#!" class="link-basket">
-            <img src="./img/svg/shape.svg" alt="basket-pic" class="link-basket__pic">
+            <img src="./img/svg/basket.svg" alt="basket-pic" class="link-basket__pic">
             
               Корзина
             
@@ -206,6 +206,7 @@
  </section>
   <!-- Partners end -->
 
+  <!-- Map start -->
   <section class="map">
     <div class="map-container">
       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.598942412368!2d30.320894615677183!3d59.938796869048424!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469631fefe102551%3A0x19e070ca4ac35ecd!2sNerds!5e0!3m2!1sru!2sua!4v1617648680293!5m2!1sru!2sua" allowfullscreen="" loading="lazy" class="map-container__link"></iframe>
@@ -214,28 +215,29 @@
         <p class="info-form__address"> 191186, Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
         <p class="info-form__tell">тел. +7 (812) 275-75-75         
         </p>
-        <button type="map-register" class="info-form__btn">
+        <a type="map-register" class="info-form__btn">
           Напишите нам
+        </a>
+      </form>
+      <form action="" class="map-register" method="POST"  >
+        <label for="name" class="map-register__label">
+          Ваше имя:
+        </label>
+        <input type="text" name="name" id="name" placeholder="Имя Фамилия" class="map-register__input">
+        <label for="email" class="map-register__label">
+          Ваш email:
+        </label>
+        <input type="email" name="email" id="email" placeholder="Email" class="map-register__input">
+        <button  type="submit" name="button" class="map-register__btn">
+          Отправить
         </button>
+        <span class="map-register__close"></span>
       </form>
     </div>
-    <form action="" class="map-register" method="POST"  >
-      <label for="name" class="map-register__label">
-        Ваше имя:
-      </label>
-      <input type="text" name="name" id="name" placeholder="Имя Фамилия" class="map-register__input">
-      <label for="email" class="map-register__label">
-        Ваш email:
-      </label>
-      <input type="email" name="email" id="email" placeholder="Email" class="map-register__input">
-      <button  type="submit" name="button" class="map-register__btn">
-        Отправить
-      </button>
-      <span class="map-register__close"></span>
-    </form>
+    
 
   </section>
-
+<!-- Map end -->
 </main>
 
 <!-- Main end -->

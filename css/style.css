@@ -86,7 +86,7 @@ header{
 }
 
 .link-basket__pic{
-  width: 18px;
+  width: 15px;
   margin-right: 24px;
 }
 
@@ -480,6 +480,7 @@ header{
 
 .info-form{
   width: 320px;
+  height: 308px;
   background-color: #fff;
   border: 0;
   font-size: 16px;
@@ -500,19 +501,25 @@ header{
   padding: 50px 76px 25px 50px;
 }
 
+.info-form__address{
+  padding-bottom: 23px;
+}
+
 .info-form__address, .info-form__tell{
   font-size: 16px;
   line-height: 18px;
   color: #666666;
   width: 230px;
-  padding-bottom: 23px;
   padding-left: 50px;
   text-align: left;
 }
 
+.info-form__tell{
+ margin-bottom: 47px;
+}
+
 .info-form__btn{
   width: 220px;
-  margin-bottom: 47px;
   padding: 15px 44px;
   border: none;
   border-radius: 3px;
@@ -543,10 +550,14 @@ header{
   text-align: start;
   margin-top: 30px;
   height: 300px;
-  border: 2px solid black;
   padding-top: 25px;
   box-sizing: border-box;
-  position: relative;
+  position: absolute;
+  display: none;
+}
+
+.info-form__btn:active .map-register{
+  display: block;
 }
 
 .map-register__label{
@@ -625,8 +636,6 @@ header{
   .map-register__close:after {
   transform: rotate(-45deg);
   }
-
-
 
 /* Map section end */
 
