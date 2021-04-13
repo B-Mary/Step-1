@@ -448,11 +448,11 @@ header{
   border-radius: 3px;
 }
 
-.product-body:hover .product-form{
+ .product-body:hover .product-card{
   display: block;
-}
+} 
 
-.product-form{
+.product-card{
  width: 359px;
  height: 231px;
  background-color:  #EEEEEE;
@@ -461,20 +461,21 @@ header{
  position: absolute;
  bottom: 0;
  left: 0;
- display: none;
+  display: none; 
  transition: bottom 0.5s;
 }
 
 
-.product-form__title{
+.product-card__title{
   text-transform: uppercase;
   font-weight: bold;
   font-size: 18px;
   line-height: 30px;
-  padding: 26px 144px 12px 145px;
+  padding-top: 26px;
+  padding-bottom: 12px;
 }
 
-.product-form__text{
+.product-card__text{
   width: 255px;
   font-weight: normal;
   font-size: 16px;
@@ -485,7 +486,7 @@ header{
   padding-bottom: 32px;
 }
 
-.product-form__buy{
+.product-card__buy{
   text-decoration: none;
   width: 200px;
   background-color: #FB565A;
@@ -494,19 +495,19 @@ header{
   border-radius: 3px;
 }
 
-.product-form__title:hover{
+.product-card__title:hover{
   color: #FB565A;
 }
 
-.product-form__title:active{
+.product-card__title:active{
   opacity: 0.3;
 }
 
-.product-form__buy:hover{
+.product-card__buy:hover{
   background: #E74246;
 }
 
-.product-form__buy:active{
+.product-card__buy:active{
   background: #D7373B;
  box-shadow: inset 0px 3px 0px rgba(0, 1, 1, 0.1);
 }
